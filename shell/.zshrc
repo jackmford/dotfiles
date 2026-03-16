@@ -11,7 +11,7 @@ alias localbackup='~/Lab/git-repos/scripts/pi-backup/pi-backup.sh'
 alias lab="cd ~/lab"
 
 # -- export --
-export path="/opt/homebrew/bin:${path}"
+export PATH="/opt/homebrew/bin:${PATH}"
 export ansible_config="~/lab/git-repos/ansible/ansible.cfg"
 
 eval "$(rbenv init -)"
